@@ -1,8 +1,17 @@
 const express = require("express");
 const router = express.Router();
-const contentController = require("../controllers/contentController");
+const {
+  getAllContent,
+  getContentById,
+  createContent,
+  updateContent,
+  deleteContent,
+} = require("../controllers/contentController");
 
-router.get("/", contentController.getContent);
-router.put("/", contentController.updateContent);
+router.get("/", getAllContent);
+router.get("/:id", getContentById);
+router.post("/", createContent);
+router.put("/:id", updateContent);
+router.delete("/:id", deleteContent);
 
 module.exports = router;

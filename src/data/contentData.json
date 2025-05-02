@@ -1,21 +1,14 @@
-{
-    "header":{
-        "title":"Welcome to HEFESTO CORP",
-        "tagline": "Innovating the future"
-    },
-    "about":{
-        "paragraph":"We are forward-thinking company offering tech solutions.",
-        "mission":"To deliver excellence through innovation."
-    },
-    "images":{
-        "logo":"https://example.com/logo.png",
-        "hero":"https://example.com/hero.jpg"
-    },
-    "contact":{
-        "email":"info@acmecorop.com",
-        "phone":"+1234567890",
-        "social":{
-            "linkedin":"https://linkedin.com/company/acmecorp"
-        }
-    }
-}
+[
+  {
+    "id": 2,
+    "section": "features",
+    "title": "Why choose us?",
+    "description": "Because we care."
+  },
+  {
+    "id": 1746151806794,
+    "section": "footer",
+    "title": "contact us",
+    "description": "acmecorp@gmail.com"
+  }
+]
